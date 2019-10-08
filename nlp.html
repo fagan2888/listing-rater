@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Listing Rater </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="nlp.css">
+    <script src="bundle.js"></script>
+</head>
+
+<body>
+    <!--Overall Container -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 mt-4">
+                <h2 class="mb-3">Listing Rater</h2>
+                <p1>Input your home listing's description below to get a rating</p1>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 mt-4">
+                <div class="form-group">
+                    <label for="inputText"></label>
+                    <textarea class="form-control" id="inputText" placeholder="Type here" rows="10"></textarea>
+                </div>
+                <div>
+                    <button id="btn" type="button" class="btn btn-secondary mt-4">Analyze</button>
+                </div>
+                <div>
+                    <h3 class="mt-4" id="score"></h3>
+                    <h5 class="mt-4" id="wordScore"></h5>
+                    <h5 class="mt-4"  id="suggestion"></h5>
+                </div>
+                <div class="mt-3">
+                    <p1 id="moreinfo"></p1>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" style="height:100px;">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
